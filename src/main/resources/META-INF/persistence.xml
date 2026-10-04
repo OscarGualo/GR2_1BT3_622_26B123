@@ -5,6 +5,11 @@
              version="3.0">
     <persistence-unit name="PoliDinnerPU" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <class>com.javaweb.gr2s2_1bt3_622_26b.modelo.ItemMenu</class>
+        <class>com.javaweb.gr2s2_1bt3_622_26b.modelo.Plato</class>
+        <class>com.javaweb.gr2s2_1bt3_622_26b.modelo.Producto</class>
+        <class>com.javaweb.gr2s2_1bt3_622_26b.modelo.Menu</class>
+        <class>com.javaweb.gr2s2_1bt3_622_26b.modelo.PersonalComedor</class>
         <exclude-unlisted-classes>false</exclude-unlisted-classes>
         <properties>
             <property name="jakarta.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
